@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title> Azimut Solution </title>
+	</head>
+	<body style="background-color:powderblue">
+	<p style="color:red"> Paragraf de culoare </p>
+	<h1 style="font-family:verdana"> </h1>
+	<a href="https://www.yahoo.com"> </a>
+		<ul>
+			<li> paine </li>
+			<li> ulei </li>
+			<li> oua </>
+		</ul>
+		<ol type="A">
+			<li> Cumpara </li>
+			<li> Amesteca </li>
+			<li> Pune </li>
+		</ol>
+		<table>
+			<tr>
+				<th> Nume </th>
+				<th> Locatie </th>
+			</tr>
+			<tr>
+				<td> Adi </td>
+				<td> Bucuresti </td>
+			</tr>
+			<tr>
+				<td> Emil </td>
+				<td> Iasi </td>
+			</tr>
+			<form action="http://www.yahoo.com">
+				<label> Username
+					<input type="text"/>
+				</label><br>
+				<label> Password
+					<input type="password"/>
+				</label><br>
+				<label> Birthdate
+					<input type="Date"/>
+				</label><br><br>
+			<form>
+				<label> Gender
+				<select>
+					<option> Male </option>
+					<option> Female </option>
+					<option> Unknown </option>
+				</select>
+			</form><br>
+				<label> Male
+					<input type="Radio"/>
+				</label><br>
+				<label> Female
+					<input type="checkbox"/>
+				</label><br><br>
+				
+				<input type="Submit"/><br><br>
+				<input type="Reset"/><br><br>
+				<input type="Button" onclick="alert('Hello Word')" value="Clickme"><br><br>
+			</form>
+	</body>
+</html>
